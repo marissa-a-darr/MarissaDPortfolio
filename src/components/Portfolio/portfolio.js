@@ -7,7 +7,7 @@ import Proj3 from "../../assets/project3.jpg";
 import Proj4 from "../../assets/project4.jpg";
 import Proj5 from "../../assets/project5.jpg";
 import Proj6 from "../../assets/project6.jpg"
-
+import FinalProject from "../../assets/finalproject.png"
 const data = [
   {
     id:1,
@@ -51,6 +51,13 @@ const data = [
     githublink:"https://github.com/marissa-a-darr/README_Generator",
     demo: "https://watch.screencastify.com/v/LwRDeOQFTVMMHnq3WQdP"
   },
+  {
+    id: 7,
+    screenshot: FinalProject,
+    title: "Knockout",
+    githublink: "https://github.com/marissa-a-darr/knockout",
+    demo: "https://knockout-app.herokuapp.com/"
+  }
 ];
 
 const Portfolio = () => {
